@@ -1,4 +1,8 @@
-
+/***
+ * Programa que extrae de la web de noticias de la cnn en español
+ * para luego extraer las noticias relevantes al tema de coronavirus
+ * se usan paquetes de node.js 
+ */
 const moongose = require("mongoose");
 const { MONGO_URI } = require('./config');
 const axios = require('axios').default;
